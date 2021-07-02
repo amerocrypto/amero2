@@ -1,0 +1,154 @@
+# bash programmable completion for amero-cli(1)
+# Public Resource ℗ 2021 𝖡𝗂𝗍𝖼𝗈𝗂𝗇 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋𝗌
+# Public Resource ℗ 2020 𝖠𝗆𝖾𝗋𝗈 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋𝗌
+# THIS REPOSITORY IS LICENSED UNDER THE AMERO PUBLIC RESOURCE LICENSE.
+
+# call $amero-cli for RPC
+_amero_rpc() {
+    # determine already specified args necessary for RPC
+    local rpcargs=()
+    for i in ${COMP_LINE}; do
+        case "$i" in
+            -conf=*|-datadir=*|-regtest|-rpc*|-testnet)
+                rpcargs=( "${rpcargs[@]}" "$i" )
+                ;;
+        esac
+    done
+    $amero_cli "${rpcargs[@]}" "$@"
+}
+
+# Add wallet accounts to COMPREPLY
+_amero_accounts() {
+    local accounts
+    accounts=$(_amero_rpc listaccounts | awk -F '"' '{ print $2 }')
+    COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
+}
+
+_amero_cli() {
+    local cur prev words=() cword
+    local amero_cli
+
+    # save and use original argument to invoke amero-cli for -help, help and RPC
+    # as amero-cli might not be in $PATH
+    amero_cli="$1"
+
+    COMPREPLY=()
+    _get_comp_words_by_ref -n = cur prev words cword
+
+    if ((cword > 5)); then
+        case ${words[cword-5]} in
+            sendtoaddress)
+                COMPREPLY=( $( compgen -W "true false" -- "$cur" ) )
+                return 0
+                ;;
+        esac
+    fi
+
+    if ((cword > 4)); then
+        case ${words[cword-4]} in
+            importaddress|listtransactions|setban)
+                COMPREPLY=( $( compgen -W "true false" -- "$cur" ) )
+                return 0
+                ;;
+            signrawtransaction)
+                COMPREPLY=( $( compgen -W "ALL NONE SINGLE ALL|ANYONECANPAY NONE|ANYONECANPAY SINGLE|ANYONECANPAY" -- "$cur" ) )
+                return 0
+                ;;
+        esac
+    fi
+
+    if ((cword > 3)); then
+        case ${words[cword-3]} in
+            addmultisigaddress)
+                _amero_accounts
+                return 0
+                ;;
+            getbalance|gettxout|importaddress|importpubkey|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
+                COMPREPLY=( $( compgen -W "true false" -- "$cur" ) )
+                return 0
+                ;;
+        esac
+    fi
+
+    if ((cword > 2)); then
+        case ${words[cword-2]} in
+            addnode)
+                COMPREPLY=( $( compgen -W "add remove onetry" -- "$cur" ) )
+                return 0
+                ;;
+            setban)
+                COMPREPLY=( $( compgen -W "add remove" -- "$cur" ) )
+                return 0
+                ;;
+            fundrawtransaction|getblock|getblockheader|getmempoolancestors|getmempooldescendants|getrawtransaction|gettransaction|listaccounts|listreceivedbyaccount|listreceivedbyaddress|sendrawtransaction)
+                COMPREPLY=( $( compgen -W "true false" -- "$cur" ) )
+                return 0
+                ;;
+            move|setaccount)
+                _amero_accounts
+                return 0
+                ;;
+        esac
+    fi
+
+    case "$prev" in
+        backupwallet|dumpwallet|importwallet)
+            _filedir
+            return 0
+            ;;
+        getaddednodeinfo|getrawmempool|lockunspent|setgenerate)
+            COMPREPLY=( $( compgen -W "true false" -- "$cur" ) )
+            return 0
+            ;;
+        getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
+            _amero_accounts
+            return 0
+            ;;
+    esac
+
+    case "$cur" in
+        -conf=*)
+            cur="${cur#*=}"
+            _filedir
+            return 0
+            ;;
+        -datadir=*)
+            cur="${cur#*=}"
+            _filedir -d
+            return 0
+            ;;
+        -*=*)	# prevent nonsense completions
+            return 0
+            ;;
+        *)
+            local helpopts commands
+
+            # only parse -help if senseful
+            if [[ -z "$cur" || "$cur" =~ ^- ]]; then
+                helpopts=$($amero_cli -help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+            fi
+
+            # only parse help if senseful
+            if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
+                commands=$(_amero_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+            fi
+
+            COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
+
+            # Prevent space if an argument is desired
+            if [[ $COMPREPLY == *= ]]; then
+                compopt -o nospace
+            fi
+            return 0
+            ;;
+    esac
+} &&
+complete -F _amero_cli amero-cli
+
+# Local variables:
+# mode: shell-script
+# sh-basic-offset: 4
+# sh-indent-comment: t
+# indent-tabs-mode: nil
+# End:
+# ex: ts=4 sw=4 et filetype=sh

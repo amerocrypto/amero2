@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Amero Core
+Comment=Amero P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Amero peer-to-peer Netzwerk
+Comment[fr]=Amero, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Amero, eşten eşe kriptografik sanal para birimi
+Exec=amero-qt %u
+Terminal=false
+Type=Application
+Icon=amero128
+MimeType=x-scheme-handler/amero;
+Categories=Office;Finance;
+StartupWMClass=Amero-qt

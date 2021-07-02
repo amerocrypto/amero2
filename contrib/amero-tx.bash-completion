@@ -1,0 +1,57 @@
+# bash programmable completion for amero-tx(1)
+# Public Resource ℗ 2021 𝖡𝗂𝗍𝖼𝗈𝗂𝗇 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋𝗌
+# Public Resource ℗ 2020 𝖠𝗆𝖾𝗋𝗈 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋𝗌
+# THIS REPOSITORY IS LICENSED UNDER THE AMERO PUBLIC RESOURCE LICENSE.
+
+_amero_tx() {
+    local cur prev words=() cword
+    local amero_tx
+
+    # save and use original argument to invoke amero-tx for -help
+    # it might not be in $PATH
+    amero_tx="$1"
+
+    COMPREPLY=()
+    _get_comp_words_by_ref -n =: cur prev words cword
+
+    case "$cur" in
+        load=*:*)
+            cur="${cur#load=*:}"
+            _filedir
+            return 0
+            ;;
+        *=*)	# prevent attempts to complete other arguments
+            return 0
+            ;;
+    esac
+
+    if [[ "$cword" == 1 || ( "$prev" != "-create" && "$prev" == -* ) ]]; then
+        # only options (or an uncompletable hex-string) allowed
+        # parse amero-tx -help for options
+        local helpopts
+        helpopts=$($amero_tx -help | sed -e '/^  -/ p' -e d )
+        COMPREPLY=( $( compgen -W "$helpopts" -- "$cur" ) )
+    else
+        # only commands are allowed
+        # parse -help for commands
+        local helpcmds
+        helpcmds=$($amero_tx -help | sed -e '1,/Commands:/d' -e 's/=.*/=/' -e '/^  [a-z]/ p' -e d )
+        COMPREPLY=( $( compgen -W "$helpcmds" -- "$cur" ) )
+    fi
+
+    # Prevent space if an argument is desired
+    if [[ $COMPREPLY == *= ]]; then
+        compopt -o nospace
+    fi
+
+    return 0
+} &&
+complete -F _amero_tx amero-tx
+
+# Local variables:
+# mode: shell-script
+# sh-basic-offset: 4
+# sh-indent-comment: t
+# indent-tabs-mode: nil
+# End:
+# ex: ts=4 sw=4 et filetype=sh
