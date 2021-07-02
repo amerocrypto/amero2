@@ -1,5 +1,5 @@
-AMERO PUBLIC RESOURCE LICENSE
-JULY THE FOURTH, TWENTY-TWENTY ONE
+<div align="center">AMERO PUBLIC RESOURCE LICENSE</div>
+<div align="center">JULY THE FOURTH, 2021</div>
 
 This software is a collection of works by Contributors worldwide whose authorization is hereby granted for use as a Public Resource, without charge, to any person obtaining a copy of this software and associated documentation files—except for the license of which the original must remain untouched with the exemption of appending attributions—(the "Software"), to deal in the Software without restriction, including the rights to use, copy, modify, merge, publish, distribute, delete, and/or sell copies of the Software with the following limitations:
 1.	Anyone who contributes code will be referred to as a "Contributor" regardless of whether they are a programmer, developer, artist, student, professional, individual, team, corporation, non-profit, structured organization, church, government employee, or non-human (A.I.)
