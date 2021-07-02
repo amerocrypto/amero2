@@ -660,7 +660,7 @@ void SetupServerArgs()
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/amerocrypto/amero>";
-    const std::string URL_WEBSITE = "<https://amero.org>";
+    const std::string URL_WEBSITE = "<https://amerocrypto.com>";
 
     return CopyrightHolders(_("Public Resource ℗"), 2020, COPYRIGHT_YEAR) + "\n" +
            "\n" +

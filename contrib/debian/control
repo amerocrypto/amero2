@@ -1,8 +1,8 @@
 Source: amero
 Section: utils
 Priority: optional
-Maintainer: Holger Schinzel <holger@amero.org>
-Uploaders: Holger Schinzel <holger@amero.org>
+Maintainer: Holger Schinzel <holger@amerocrypto.com>
+Uploaders: Holger Schinzel <holger@amerocrypto.com>
 Build-Depends: debhelper,
  devscripts,
  automake,
@@ -26,7 +26,7 @@ Build-Depends: debhelper,
  python,
  libzmq3-dev
 Standards-Version: 3.9.2
-Homepage: https://www.amero.org/
+Homepage: https://www.amerocrypto.com/
 Vcs-Git: git://github.com/amerocrypto/amero.git
 Vcs-Browser: https://github.com/amerocrypto/amero
 

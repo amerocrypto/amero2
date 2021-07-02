@@ -3,7 +3,7 @@ Amero Core version 0.17.0.3
 
 Release is now available from:
 
-  <https://www.amero.org/downloads/#wallets>
+  <https://www.amerocrypto.com/downloads/#wallets>
 
 This is a new hotfix release.
 
