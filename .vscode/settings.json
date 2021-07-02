@@ -12,5 +12,11 @@
         "**/node_modules": false
     },
     "search.useIgnoreFiles": false,
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cSpell.words": [
+        "amero",
+        "nakamoto",
+        "reliquished",
+        "satoshi"
+    ]
 }
