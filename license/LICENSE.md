@@ -1,8 +1,8 @@
-<div align="center">AMERO PUBLIC RESOURCE LICENSE</div>
-<div align="center">JULY THE FOURTH, 2021</div>
+AMERO PUBLIC RESOURCE LICENSE
+JULY THE FOURTH, 2021
 
-<div align="justify">
 This software is a collection of works by Contributors worldwide whose authorization is hereby granted for use as a Public Resource, without charge, to any person obtaining a copy of this software and associated documentation files—except for the license of which the original must remain untouched with the exemption of appending attributions—(the "Software"), to deal in the Software without restriction, including the rights to use, copy, modify, merge, publish, distribute, delete, and/or sell copies of the Software with the following limitations:
+
 1.	Anyone who contributes code will be referred to as a "Contributor" regardless of whether they are a programmer, developer, artist, student, professional, individual, team, corporation, non-profit, structured organization, church, government employee, or non-human (A.I.)
 2.	All contributions must be licensed under this license for all work submitted; therefore, any addition added by any contributor will automatically become a Public Resource once accepted into this repository.
 3.	Users who wish to use this code for their own projects must license their software under the same license, unless the code used from this repository represents less than one-fifth of the entire project, in which case the derivative source code repository is not required to extend this license to the derivative source code, but conspicuous attribution is required, and this license file must be included within the repository with the location of the source code used appended to this license. 
@@ -11,21 +11,20 @@ This software is a collection of works by Contributors worldwide whose authoriza
 6.	If this repository is forked, this license and all contributions will remain Public Resources under the same license; This license applies to all contributions, and contributor credits will not be removed from the repository; however, their code may be excluded at any time. Users may append their Public Resource Notice to this license.
 7.	Parties interested in using small portions of the code in this repository may do so, but must properly attribute the project and its contributor. Each section of code must include the author's name and email address as an attribution comment. This license allows code snippets and units from repositories that carry this license to be used within any type of licensed software, provided the amount of code used does not exceed one fifth of the code used in Public Resource Licensed Projects. There must be an unaltered file copy of this license in the repository where this code is located. The license does not apply to any other parts of the project except for the code that was used. It is essential to include the location of the code used in the license. If the project is closed source, a complete copy of the license and any appended information must be included within the software.
 8.	Contributors relinquish their copyright of the source code submitted for use as a Public Resource; however, the owner/leader of the repository source code does not become the owner. Source code belongs to the software, the ownership of which is owned by the public, and the resource is a Public Resource.
-9.	If a substantial amount of the source code from this repository is used, then all Public Resource Attributions must be displayed promptly and conspicuously upon launch of software. This repository carries the following attributions:</div>
+9.	If a substantial amount of the source code from this repository is used, then all Public Resource Attributions must be displayed promptly and conspicuously upon launch of software. This repository carries the following attributions:
 
-<div align="center">
+
 Public Resource ℗ 2020 Satoshi Nakamoto
 Public Resource ℗ 2020 Bitcoin & Bitcoin Core Developers
 Public Resource ℗ 2021 Dash Developers
-Public Resource ℗ 2021 Amero Developers</div>
+Public Resource ℗ 2021 Amero Developers
   
-<div align="justify">
+
 10.	When this software is to be licensed or sold as a service or through any sales channel, the seller or company will be required to expressly inform the customer that they are able to perform the work on their own servers using the open-source software repository.
 11.	Under no circumstances may extensions or plugins be developed under a different license that directly or explicitly rely on this repository's software. In addition, any software which directly uses this repository as the center point of their software must also be licensed under the AMERRO PUBLIC RESOURCE LICENSE and must also release their full source code to the public.
 12.	A closed source or any other licensed software that explicitly requires this repository's software for operation is prohibited.
 13.	This license strictly prohibits contributors from making any monetary or digital gain from selling extra features that they have excluded from the source code.
 14.	Once a contribution has been accepted to a repository with this license, it cannot be removed as a Public Resource. The contributor may still issue takedown notices if they suspect that code was stolen from this repository, but they may not issue takedown notices for this repository or any other repository like it. Contributors can continue to use the code submitted in other repositories without restrictions. A contribution of the code found elsewhere shall be superseded by this license.
-
 15.	As a result of submission, the contributor automatically relinquishes all copyright authority of the source code contributed to this repository to license it to the public as a Public Resource. In no way shall the repository owner or manager have any rights over this source code. The Contributor is still allowed to use the code they contributed to other repositories but must link to this license. A Public Resource consists of code snippets from contributors (the public) that belong to the software but whose source code is shared (licensed) to the public.
+
 THE CONTRIBUTORS OF THIS PROJECT HAVE REDUCED THEIR COPYRIGHT AUTHORITY OF THEIR CODE TO THIS PROJECT (REPOSITORY) AND ITS SOURCE CODE SO THAT ANYONE MAY OBTAIN A LICENSE WITH MINIMAL RESTRICTIONS. IN DOING SO, THE CONTRIBUTORS HAVE RELIQUISHED THEIR LIABILITY FROM THIS SOFTWARE IN FULL. NEITHER THE AUTHORS OF THE SOFTWARE NOR THE CONTRIBUTORS TO THE PUBLIC RESOURCE WILL BE LIABLE FOR ANY CLAIM, DAMAGE OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, RELATED TO THE SOFTWARE OR THE USE OF THE SOFTWARE. THERE ARE NO EXPRESS OR IMPLIED WARRANTIES OR REPRESENTATIONS OF ANY KIND WITH RESPECT TO THE SOFTWARE WITHIN THIS REPOSITORY, INCLUDING, WARRANTIES THAT THIS SOFTWARE IS FREE FROM ERRORS, MERCHANTABLE, SUITABLE FOR A PARTICULAR PURPOSE, OR NON-INFRINGING. IN ADDITION, IT IS YOUR RESPONSIBILITY, (AND NOT THE DEVELOPER, NOR ANY OTHER CONTRIBUTOR TO THE REPOSITORY) TO PERFORM ANY NECESSARY SERVICING, REPAIR, OR CORRECTIONS TO THE SOFTWARE INCLUDED IN THIS REPOSITORY. THE DISCLAIMER OF WARRANTY CONTAINED HEREIN IS ESSENTIAL TO THIS LICENSE.
-</div>
