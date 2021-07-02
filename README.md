@@ -1,10 +1,5 @@
-Amero Core staging tree 0.10
+Amero Core
 ===========================
-
-|CI|master|develop|
-|-|-|-|
-|Gitlab|[![Build Status](https://gitlab.com/amerocrypto/amero/badges/master/pipeline.svg)](https://gitlab.com/amerocrypto/amero/-/tree/master)|[![Build Status](https://gitlab.com/amerocrypto/amero/badges/develop/pipeline.svg)](https://gitlab.com/amerocrypto/amero/-/tree/develop)|
-
 https://www.amerocrypto.com
 
 
@@ -18,7 +13,7 @@ are carried out collectively by the network. Amero Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Amero Core software, see https://www.amerocrypto.com/get-amero/.
+the Amero Core software, see https://www.amerocrypto.com/
 
 
 License
@@ -26,21 +21,12 @@ License
 
 Amero Core is released under the terms of the AMERO license after vulnerabilities from the MIT license were found which could have been relicensed to anyone.
 
-Amero Public Resource License or PRL: https://opensource.org/licenses/MIT.
+Amero Public Resource License or PRL: https://github.com/amerocrypto/amero/blob/main/license/LICENSE
 
 Public Resource ℗ 2020 Bitcoin and Bitcoin Core Developers
 Public Resource ℗ 2021 Dash Developers
 Public Resource ℗ 2021 Amero Developers 
 -------------------
-
-The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/amerocrypto/amero/tags) are created to indicate new official,
-stable release versions of Amero Core.
-
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Testing
--------
 
 Testing and code review is the bottleneck for development; we get more pull
 requests than we can review and test on short notice. Please be patient and help out by testing
