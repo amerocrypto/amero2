@@ -604,10 +604,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x0000009303aeadf8cf3812f5c869691dbd4cb118ad20e9bf553be434bafe6a52"); // 470000
 
-        pchMessageStart[0] = 0xce;
-        pchMessageStart[1] = 0xe2;
-        pchMessageStart[2] = 0xca;
-        pchMessageStart[3] = 0xff;
+        pchMessageStart[0] = 0xef;
+        pchMessageStart[1] = 0x4f;
+        pchMessageStart[2] = 0xff;
+        pchMessageStart[3] = 0x3d;
         nDefaultPort = 19999;
         nPruneAfterHeight = 1000;
 
@@ -777,10 +777,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x000000000000000000000000000000000000000000000000000000000000000");
 
-        pchMessageStart[0] = 0xe2;
-        pchMessageStart[1] = 0xca;
-        pchMessageStart[2] = 0xff;
-        pchMessageStart[3] = 0xce;
+        pchMessageStart[0] = 0xee;
+        pchMessageStart[1] = 0xdd;
+        pchMessageStart[2] = 0xcc;
+        pchMessageStart[3] = 0xff;
         nDefaultPort = 19799;
         nPruneAfterHeight = 1000;
 
@@ -933,10 +933,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        pchMessageStart[0] = 0xfc;
-        pchMessageStart[1] = 0xc1;
-        pchMessageStart[2] = 0xb7;
-        pchMessageStart[3] = 0xdc;
+        pchMessageStart[0] = 0xcd;
+        pchMessageStart[1] = 0xcf;
+        pchMessageStart[2] = 0xca;
+        pchMessageStart[3] = 0xcc;
         nDefaultPort = 19899;
         nPruneAfterHeight = 1000;
 
