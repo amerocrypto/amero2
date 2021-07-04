@@ -29,7 +29,7 @@ Amero Core is released under the terms of the AMERO license after vulnerabilitie
 Amero Public Resource License or PRL: https://opensource.org/licenses/MIT.
 
 Public Resource ℗ 2020 Bitcoin and Bitcoin Core Developers
-Public Resource ℗ 2021 Dash Developers
+Public Resource ℗ 2021 Amero Developers
 Public Resource ℗ 2021 Amero Developers 
 -------------------
 
