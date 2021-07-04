@@ -817,7 +817,7 @@
         <translation>Această etichetă devine roşie, dacă orice beneficiar primeşte o sumă mai mică decât pragul curent pentru praf.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 aero(es) per input.</source>
         <translation>Poate varia +/- %1 duff(i) per intrare.</translation>
     </message>
     <message>

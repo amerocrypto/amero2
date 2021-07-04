@@ -869,8 +869,8 @@
         <translation>Nhãn này sẽ chuyển sang đỏ nếu có địa chỉ nào nhận được một khoản nhỏ hơn ngưỡng nhỏ nhất định được gọi là bụi.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Có thể thay đổi +/- %1 duff(s) cho mỗi đầu vào.</translation>
+        <source>Can vary +/- %1 aero(es) per input.</source>
+        <translation>Có thể thay đổi +/- %1 aero(es) cho mỗi đầu vào.</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>

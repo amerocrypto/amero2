@@ -883,7 +883,7 @@
         <translation>يتحول هذا التصنيف إلى اللون الأحمر إذا تلقى أي مستلم مبلغا أصغر من عتبة الغبار الحالية.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 aero(es) per input.</source>
         <translation>يمكن أن تختلف +/-%1 داف (ق) لكل مدخلات.</translation>
     </message>
     <message>

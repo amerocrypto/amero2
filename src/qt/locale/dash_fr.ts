@@ -891,8 +891,8 @@
         <translation>Cette étiquette devient rouge si l'un des destinataires reçoit un montant inférieur au niveau de "poussière".</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Peut varier de ± %1 duff(s) par entrée.</translation>
+        <source>Can vary +/- %1 aero(es) per input.</source>
+        <translation>Peut varier de ± %1 aero(es) par entrée.</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>

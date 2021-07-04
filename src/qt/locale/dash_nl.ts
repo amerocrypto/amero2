@@ -891,8 +891,8 @@
         <translation>Deze label wordt rood als een ontvanger een hoeveelheid kleiner dan de huidige dust-drempel krijgt.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Kan +/- %1 duff(s) per invoer variëren.</translation>
+        <source>Can vary +/- %1 aero(es) per input.</source>
+        <translation>Kan +/- %1 aero(es) per invoer variëren.</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>

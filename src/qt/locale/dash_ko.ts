@@ -891,7 +891,7 @@
         <translation>수령인이 현재 더스트 임계값보다 작은 양을 수신하면 이 라벨이 빨간색으로 변합니다.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 aero(es) per input.</source>
         <translation>입력당 +/- %1 더프가 달라질 수 있습니다.</translation>
     </message>
     <message>

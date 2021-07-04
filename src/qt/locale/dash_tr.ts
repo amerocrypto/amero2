@@ -891,7 +891,7 @@
         <translation>Eğer herhangi bir alıcı mevcut toz eşiğinden daha düşük bir tutar alırsa bu etiket kırmızıya dönüşür.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 aero(es) per input.</source>
         <translation>Girdi başına +/- %1 duff değişebilir.</translation>
     </message>
     <message>

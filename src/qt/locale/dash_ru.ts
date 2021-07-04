@@ -899,7 +899,7 @@
         <translation>Эта метка становится красной, если какой-либо из адресатов получает сумму меньше, чем "пыль".</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 aero(es) per input.</source>
         <translation>Может отличаться на +/- %1 duff(ов) на каждый вход.</translation>
     </message>
     <message>

@@ -891,7 +891,7 @@
         <translation>ป้ายนี้จะเปลี่ยนเป็นสีแดงถ้าตัวรับใด ๆ ได้รับจำนวนเงินน้อยกว่าขั้นต่ำในปัจจุบัน</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
+        <source>Can vary +/- %1 aero(es) per input.</source>
         <translation>สามารถเปลี่ยนแปลงได้ + / - %1 duff (s) ต่อรายการ</translation>
     </message>
     <message>

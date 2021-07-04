@@ -891,8 +891,8 @@
         <translation>如果任何一個收款人收到的金額比當前零散錢的閾值還小的話，這個標籤將變為紅色。</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>每組輸入可能有 +/- %1 個 duff(s) 的誤差。</translation>
+        <source>Can vary +/- %1 aero(es) per input.</source>
+        <translation>每組輸入可能有 +/- %1 個 aero(es) 的誤差。</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>

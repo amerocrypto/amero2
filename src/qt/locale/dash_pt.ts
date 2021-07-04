@@ -891,8 +891,8 @@
         <translation>Este texto fica vermelho se qualquer destinatário receber uma quantidade menor que que o dust.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Pode variar +/- %1 duff(s) por entrada.</translation>
+        <source>Can vary +/- %1 aero(es) per input.</source>
+        <translation>Pode variar +/- %1 aero(es) por entrada.</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>

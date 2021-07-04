@@ -891,8 +891,8 @@
         <translation>当任何一个收款金额小于目前的零散金额上限时，文字会变红色。</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>每笔输入可能会有 +/- %1个duff(s)的偏差.</translation>
+        <source>Can vary +/- %1 aero(es) per input.</source>
+        <translation>每笔输入可能会有 +/- %1个aero(es)的偏差.</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>

@@ -891,8 +891,8 @@
         <translation>Diese Bezeichnung wird rot, wenn ein Empfänger einen Betrag kleiner als die gegenwärtige Schwelle für Dust erhält.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Kann um +/- %1 duff(s) pro Eingabe variieren.</translation>
+        <source>Can vary +/- %1 aero(es) per input.</source>
+        <translation>Kann um +/- %1 aero(es) pro Eingabe variieren.</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>
