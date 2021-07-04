@@ -2647,7 +2647,7 @@ https://www.transifex.com/projects/p/amero/</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 aeroes and the transaction is only 250 bytes, then "per kilobyte" only pays 250 aeroes in fee,&lt;br /&gt;while "at least" pays 1000 aeroes. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Nếu mức phí tuỳ chỉnh được đặt là 1000 duff và giao dịch chỉ có 250 byte, thì "theo kilobyte" chỉ trả 250 duff cho phí,&lt;br /&gt;trong khi "ít nhất" phải trả 1000 duff. Cho các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
+        <translation>Nếu mức phí tuỳ chỉnh được đặt là 1000 aero và giao dịch chỉ có 250 byte, thì "theo kilobyte" chỉ trả 250 aero cho phí,&lt;br /&gt;trong khi "ít nhất" phải trả 1000 aero. Cho các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for amero transactions than the network can process.</source>

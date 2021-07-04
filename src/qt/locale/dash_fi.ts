@@ -2893,7 +2893,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>If the custom fee is set to 1000 aeroes and the transaction is only 250 bytes, then "per kilobyte" only pays 250 aeroes in fee,&lt;br /&gt;while "at least" pays 1000 aeroes. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 aeroes siirtomaksun, kun taas "vähintään" maksaa 1000 aeroes.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
+        <translation>Jos mukautettu siirtomaksu on asetettu 1000 aero ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 aeroes siirtomaksun, kun taas "vähintään" maksaa 1000 aeroes.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for amero transactions than the network can process.</source>

@@ -892,7 +892,7 @@
     </message>
     <message>
         <source>Can vary +/- %1 aero(es) per input.</source>
-        <translation>สามารถเปลี่ยนแปลงได้ + / - %1 duff (s) ต่อรายการ</translation>
+        <translation>สามารถเปลี่ยนแปลงได้ + / - %1 aero (s) ต่อรายการ</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>

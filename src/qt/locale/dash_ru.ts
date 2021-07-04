@@ -900,7 +900,7 @@
     </message>
     <message>
         <source>Can vary +/- %1 aero(es) per input.</source>
-        <translation>Может отличаться на +/- %1 duff(ов) на каждый вход.</translation>
+        <translation>Может отличаться на +/- %1 aero(ов) на каждый вход.</translation>
     </message>
     <message>
         <source>Some coins were unselected because they were spent.</source>
@@ -2889,7 +2889,7 @@ https://www.transifex.com/projects/p/amero/</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 aeroes and the transaction is only 250 bytes, then "per kilobyte" only pays 250 aeroes in fee,&lt;br /&gt;while "at least" pays 1000 aeroes. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "минимум" будет равна 1000 duff. Для транзакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
+        <translation>Если ручная комиссия  установлена в 1000 aero, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 aero,&lt;br&gt;в то время как "минимум" будет равна 1000 aero. Для транзакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for amero transactions than the network can process.</source>
