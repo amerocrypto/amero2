@@ -94,7 +94,7 @@ displayed prominently on a screen where the user  must  see
 when using the Software such as a splash screen or endnote:
 
             Public Resource ℗ 2020 Bitcoin Developers
-            Public Resource ℗ 2021 Amero Developers
+            Public Resource ℗ 2021 Dash Developers
             Public Resource ℗ 2021 Amero Developers
 
 When this Software is to be licensed or sold as  a  service
