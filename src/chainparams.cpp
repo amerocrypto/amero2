@@ -433,7 +433,7 @@ public:
         pchMessageStart[2] = 0x8e;
         pchMessageStart[3] = 0x7c;
         nDefaultPort = 6666;
-        nPruneAfterHeight = 6667;
+        nPruneAfterHeight = 10000;
 
         genesis = CreateGenesisBlock(1625398389, 267976, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
@@ -448,10 +448,10 @@ public:
         vSeeds.emplace_back("dnsseed.amerocrypto.com");
         vSeeds.emplace_back("dnsseed.delcrypto.com");
 
-        // Amero addresses start with 'X'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
+        // Amero addresses start with 'F'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35);
         // Amero script addresses start with '7'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,16);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         // Amero private keys start with '7' or 'X'
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,204);
         // Amero BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
