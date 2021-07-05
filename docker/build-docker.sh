@@ -12,9 +12,9 @@ BUILD_DIR=${BUILD_DIR:-.}
 
 rm docker/bin/*
 mkdir docker/bin
-cp $BUILD_DIR/src/dashd docker/bin/
-cp $BUILD_DIR/src/dash-cli docker/bin/
-cp $BUILD_DIR/src/dash-tx docker/bin/
+cp $BUILD_DIR/src/amerox docker/bin/
+cp $BUILD_DIR/src/amero-cli docker/bin/
+cp $BUILD_DIR/src/amero-tx docker/bin/
 strip docker/bin/dashd
 strip docker/bin/dash-cli
 strip docker/bin/dash-tx
