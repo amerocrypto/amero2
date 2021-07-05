@@ -1,4 +1,4 @@
-package=amero-dash
+package=bls-amero
 $(package)_version=1.1.0
 $(package)_download_path=https://github.com/dashpay/bls-signatures/archive
 $(package)_download_file=$($(package)_version).tar.gz
